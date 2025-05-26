@@ -1,66 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grecian Odyssey Planner</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
-  <style>
-    body {
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-    .leaflet-popup-content-wrapper {
-      background-color: white;
-      color: #333;
-      box-shadow: 0 3px 14px rgba(0,0,0,0.4);
-      border-radius: 8px;
-    }
-    .leaflet-popup-content {
-      margin: 13px 19px;
-      line-height: 1.4;
-      font-size: 14px;
-    }
-    .leaflet-popup-tip {
-      background: white;
-    }
-    /* Custom scrollbar for better aesthetics */
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #e5e7eb; /* slate-200 */
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #9ca3af; /* slate-400 */
-      border-radius: 3px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #6b7280; /* slate-500 */
-    }
-    .map-tile-filter { /* For satellite view to be slightly less harsh */
-      filter: brightness(0.95) contrast(1.05);
-    }
-  </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.1.0",
-    "react-dom/client": "https://esm.sh/react-dom@^19.1.0/client",
-    "react/jsx-runtime": "https://esm.sh/react@^19.1.0/jsx-runtime",
-    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.0",
-    "leaflet": "https://esm.sh/leaflet@^1.9.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "react/": "https://esm.sh/react@^19.1.0/"
-  }
-}
-</script>
+    <meta charset="UTF-8">
+    <title>Greece Holiday Itinerary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: sans-serif; padding: 2em; background: #f5f5f5; }
+        h1 { color: #003366; }
+        h2 { color: #005588; margin-top: 1.5em; }
+        .day { margin-bottom: 1.5em; background: white; padding: 1em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    </style>
 </head>
-<body class="bg-slate-100 text-slate-800">
-  <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+<body>
+    <h1>Greece Family Holiday – June 2025</h1>
+    <div class="day">
+        <h2>13 Jun – Athens</h2>
+        <p>Arrival, Plaka stroll. Lunch at Kostas Souvlaki, Dinner at To Kafeneio.</p>
+    </div>
+    <div class="day">
+        <h2>14 Jun – Athens</h2>
+        <p>Visit Acropolis, Agora, National Garden, Lycabettus sunset. Lunch: Ta Karamanlidika, Dinner: Klimataria.</p>
+    </div>
+    <div class="day">
+        <h2>15–16 Jun – Aegina</h2>
+        <p>Kolona site, pistachio market, Temple of Aphaia, Agia Marina beach, St Nektarios. Dinner: Remetzo.</p>
+    </div>
+    <div class="day">
+        <h2>17–22 Jun – Poros</h2>
+        <p>Beach, Love Bay, Askeli, Kanali. Optional day trips to Hydra or Moni Island.</p>
+    </div>
+    <div class="day">
+        <h2>23–24 Jun – Nafplio</h2>
+        <p>Explore Old Town, Karathona Beach. Optional trip to Epidaurus.</p>
+    </div>
+    <div class="day">
+        <h2>25–26 Jun – Aegina</h2>
+        <p>Relax before return to Athens.</p>
+    </div>
+    <div class="day">
+        <h2>27 Jun – Fly Out</h2>
+        <p>Departure from Athens.</p>
+    </div>
 </body>
 </html>
