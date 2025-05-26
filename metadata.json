@@ -1,0 +1,5 @@
+{
+  "name": "Greece Holiday Itinerary Planner",
+  "description": "An interactive web application to display a detailed family holiday itinerary for a trip to Greece. Includes day-by-day plans, maps, and travel information.",
+  "requestFramePermissions": []
+}
